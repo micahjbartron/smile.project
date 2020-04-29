@@ -58,29 +58,26 @@
       </div>
     </div>
 
-    <div class="row bg-secondary my-5">
-      <div class="col-sm--3">
-        <p><i class="far fa-smile"></i></p>
+    <div class="row bg-secondary mt-5">
+      <div class="col-sm-3">
+        <!-- No nesting here -->
       </div>
       <div class="col-sm-9">
-        <div class="row bg-secondary">
-          <div class="col-sm-6">
-            <p><i class="far fa-smile"></i></p>
-          </div>
-          <div class="col-sm-6">
-            <p><i class="far fa-smile"></i></p>
-          </div>
+        <!-- Here we nest two rows -->
+        <div class="row">
+          <!-- A first one with two cols -->
+          <div class="col-sm-6"></div>
+          <div class="col-sm-6"></div>
         </div>
-        <div class="row bg-secondary my-5">
-          <div class="col-sm-12">
-            <p><i class="far fa-smile"></i></p>
-          </div>
+        <div class="row bg-secondary">
+          <!-- A second one with just one col -->
+          <div class="col-sm-12"></div>
         </div>
       </div>
     </div>
 
 
-    </div>
+
   </main>
   <script src="https://kit.fontawesome.com/7280876eb3.js" crossorigin="anonymous"></script>
 </body>
