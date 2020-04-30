@@ -10,10 +10,9 @@
 </head>
 
 <style>
-  * {
-    outline: 1px solid red;
+  div {
+    outline: 1px solid rgb(87, 87, 87)
   }
-
 
   .row div {
     height: 100px;
@@ -31,7 +30,6 @@
       <div class="col-6 d-flex justify-content-center align-items-center">
         <p><i class="far fa-smile"></i></p>
       </div>
-
     </div>
 
     <div class="row bg-secondary my-5">
@@ -44,34 +42,40 @@
     </div>
 
     <div class="row bg-secondary my-5">
-      <div class="col-3 d-flex justify-content-center align-items-center">
+      <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
         <p><i class="far fa-smile"></i></p>
       </div>
-      <div class="col-3 d-flex justify-content-center align-items-center">
+      <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
         <p><i class="far fa-smile"></i></p>
       </div>
-      <div class="col-3 d-flex justify-content-center align-items-center">
+      <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
         <p><i class="far fa-smile"></i></p>
       </div>
-      <div class="col-3 d-flex justify-content-center align-items-center">
+      <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
         <p><i class="far fa-smile"></i></p>
       </div>
     </div>
 
     <div class="row bg-secondary mt-5">
-      <div class="col-sm-3">
-        <!-- No nesting here -->
+      <div class="col-sm-3 d-flex justify-content-center align-items-center">
+        <p><i class="far fa-smile"></i></p>
       </div>
       <div class="col-sm-9">
-        <!-- Here we nest two rows -->
+
         <div class="row">
           <!-- A first one with two cols -->
-          <div class="col-sm-6"></div>
-          <div class="col-sm-6"></div>
+          <div class="col-sm-6 d-flex justify-content-center align-items-center">
+            <p><i class="far fa-smile"></i></p>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-center align-items-center">
+            <p><i class="far fa-smile"></i></p>
+          </div>
         </div>
         <div class="row bg-secondary">
           <!-- A second one with just one col -->
-          <div class="col-sm-12"></div>
+          <div class="col-sm-12 d-flex justify-content-center align-items-center">
+            <p><i class="far fa-smile"></i></p>
+          </div>
         </div>
       </div>
     </div>
